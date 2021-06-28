@@ -14,7 +14,7 @@
         /// <summary>
         /// The namespace under which all schema resources reside under.
         /// </summary>
-        private const string BaseSchemaNamespace = "Localization.Xliff.OM.Resources.";
+        private const string BaseSchemaNamespace = "Localization.Xliff.OM.Standard.Resources.";
 
         /// <summary>
         /// The name of the schema for the change tracking module.
