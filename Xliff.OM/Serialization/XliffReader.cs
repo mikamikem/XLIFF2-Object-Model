@@ -150,7 +150,7 @@
                         }
 
                         message = string.Format(
-                                                Properties.Resources.XliffReader_InvalidAttributeName_Format,
+                                                Standard.Properties.Resources.XliffReader_InvalidAttributeName_Format,
                                                 message,
                                                 currentElement.GetType().Name);
                         throw new NotSupportedException(message);
@@ -215,7 +215,7 @@
                     string message;
 
                     message = string.Format(
-                                            Properties.Resources.XliffElement_UnknownElement_Format,
+                                            Standard.Properties.Resources.XliffElement_UnknownElement_Format,
                                             this.reader.Name,
                                             this.currentElementState.Consumer.GetType().Name);
                     throw new FormatException(message);
@@ -230,7 +230,7 @@
                         string message;
 
                         message = string.Format(
-                                                Properties.Resources.XliffElement_ElementOutOfOrder_Format,
+                                                Standard.Properties.Resources.XliffElement_ElementOutOfOrder_Format,
                                                 this.currentElementState.Consumer.GetType().Name,
                                                 newElement.GetType().Name,
                                                 name.Namespace,
@@ -251,7 +251,7 @@
                     string message;
 
                     message = string.Format(
-                                            Properties.Resources.XliffElement_ElementOutOfOrder_Format,
+                                            Standard.Properties.Resources.XliffElement_ElementOutOfOrder_Format,
                                             this.currentElementState.Consumer.GetType().Name,
                                             newElement.GetType().Name,
                                             name.Namespace,
@@ -391,7 +391,7 @@
                                 string message;
 
                                 message = string.Format(
-                                                        Properties.Resources.XliffElement_ElementOutOfOrder_Format,
+                                                        Standard.Properties.Resources.XliffElement_ElementOutOfOrder_Format,
                                                         this.currentElementState.Consumer.GetType().Name,
                                                         typeof(string).Name,
                                                         this.reader.NamespaceURI,
@@ -446,7 +446,7 @@
             {
                 string message;
 
-                message = string.Format(Properties.Resources.XliffReader_ExtensionAlreadyRegistered_Format, ns);
+                message = string.Format(Standard.Properties.Resources.XliffReader_ExtensionAlreadyRegistered_Format, ns);
                 throw new ExtensionAlreadyRegisteredException(message);
             }
 
@@ -529,7 +529,7 @@
 
                     element = container as XliffElement;
                     message = string.Format(
-                                            Properties.Resources.XliffReader_INoteContainerMissingNote_Format,
+                                            Standard.Properties.Resources.XliffReader_INoteContainerMissingNote_Format,
                                             (element == null) ? string.Empty : element.SelectableAncestor.SelectorPath);
                     throw new FormatException(message);
                 }
@@ -547,7 +547,7 @@
 
                     element = container as XliffElement;
                     message = string.Format(
-                                            Properties.Resources.XliffReader_OriginalDataMissingData,
+                                            Standard.Properties.Resources.XliffReader_OriginalDataMissingData,
                                             (element == null) ? string.Empty : element.SelectableAncestor.SelectorPath);
                     throw new FormatException(message);
                 }
@@ -565,7 +565,7 @@
                             string message;
 
                             message = string.Format(
-                                            Properties.Resources.StandardValidator_ExplicitDependencyMissing_Format,
+                                            Standard.Properties.Resources.StandardValidator_ExplicitDependencyMissing_Format,
                                             dependant.LocalName,
                                             attribute.LocalName);
                             throw new FormatException(message);
@@ -579,7 +579,7 @@
                             string message;
 
                             message = string.Format(
-                                            Properties.Resources.StandardValidator_OutputResolverFailed_Format,
+                                            Standard.Properties.Resources.StandardValidator_OutputResolverFailed_Format,
                                             attribute.LocalName);
                             throw new FormatException(message);
                         }

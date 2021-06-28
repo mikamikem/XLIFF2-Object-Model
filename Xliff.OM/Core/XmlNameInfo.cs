@@ -47,7 +47,7 @@
             // The value of localName may be null if the fragment is a text fragment (ie. PlainText).
             if ((localName != null) && localName.Contains(":"))
             {
-                throw new ArgumentException(Properties.Resources.XmlNameInfo_InvalidLocalName, "localName");
+                throw new ArgumentException(Standard.Properties.Resources.XmlNameInfo_InvalidLocalName, "localName");
             }
 
             this.LocalName = string.IsNullOrWhiteSpace(localName) ? null : localName;

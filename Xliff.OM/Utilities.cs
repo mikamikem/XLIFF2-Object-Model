@@ -175,7 +175,7 @@
                     string message;
 
                     message = string.Format(
-                                            Properties.Resources.Codec_ElementNotDescendant_Format,
+                                            Standard.Properties.Resources.Codec_ElementNotDescendant_Format,
                                             "Target",
                                             "Ignorable, Match, Segment");
                     throw new InvalidOperationException(message);
@@ -184,7 +184,7 @@
                 source = container.Source;
                 if (source == null)
                 {
-                    throw new InvalidOperationException(Properties.Resources.Utilities_TargetMustHaveSource);
+                    throw new InvalidOperationException(Standard.Properties.Resources.Utilities_TargetMustHaveSource);
                 }
 
                 // Get the mapping from Source inline tag Id to the hash of Data references.
@@ -712,7 +712,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_ChildAlreadyExists_Format,
+                                        Standard.Properties.Resources.XliffElement_ChildAlreadyExists_Format,
                                         host.GetType().Name,
                                         propertyName);
                 throw new InvalidOperationException(message);

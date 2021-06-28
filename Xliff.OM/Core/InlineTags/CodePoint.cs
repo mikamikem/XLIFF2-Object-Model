@@ -60,14 +60,14 @@
                 if (value < 0 || value > 0x10FFFF)
                 {
                     throw new ArgumentOutOfRangeException(
-                        string.Format(Properties.Resources.CodePoint_OutOfRange, value));
+                        string.Format(Standard.Properties.Resources.CodePoint_OutOfRange, value));
                 }
                 
                 // Code point must not be a valid XML character.
                 if (Utilities.IsValidXmlCodePoint(value))
                 {
                     throw new ArgumentException(
-                        string.Format(Properties.Resources.CodePoint_InvalidCode, value));
+                        string.Format(Standard.Properties.Resources.CodePoint_InvalidCode, value));
                 }
 
                 this.SetPropertyValue(value, CodePoint.PropertyNames.Code);

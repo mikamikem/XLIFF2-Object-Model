@@ -59,7 +59,7 @@
             {
                 string message;
 
-                message = string.Format(Properties.Resources.ArgValidator_ElementReused_Format, element.GetType().Name);
+                message = string.Format(Standard.Properties.Resources.ArgValidator_ElementReused_Format, element.GetType().Name);
                 throw new ElementReuseException(message);
             }
         }
@@ -76,7 +76,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.ArgValidator_InvalidType_Format,
+                                        Standard.Properties.Resources.ArgValidator_InvalidType_Format,
                                         this.argument.GetType().Name,
                                         type.Name);
                 throw new ArgumentException(message, this.name);
@@ -105,7 +105,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.ArgValidator_InvalidTypeOfMany_Format,
+                                        Standard.Properties.Resources.ArgValidator_InvalidTypeOfMany_Format,
                                         this.argument.GetType().Name);
                 throw new ArgumentException(message, this.name);
             }
@@ -235,7 +235,7 @@
                 {
                     string message;
 
-                    message = string.Format(Properties.Resources.ArgValidator_InvalidId_Format, value);
+                    message = string.Format(Standard.Properties.Resources.ArgValidator_InvalidId_Format, value);
                     throw new InvalidIdException(message, exception);
                 }
             }
@@ -257,7 +257,7 @@
             {
                 string message;
 
-                message = string.Format(Properties.Resources.ArgValidator_StringDoesNotStartWith_Format, value, prefix);
+                message = string.Format(Standard.Properties.Resources.ArgValidator_StringDoesNotStartWith_Format, value, prefix);
                 throw new ArgumentException(message, this.name);
             }
 

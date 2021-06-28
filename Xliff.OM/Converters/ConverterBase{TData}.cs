@@ -42,7 +42,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.ConverterBase_ValueNotImplemented_Format,
+                                        Standard.Properties.Resources.ConverterBase_ValueNotImplemented_Format,
                                         value,
                                         this.GetType().Name);
                 throw new NotImplementedException(message);
@@ -79,7 +79,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.ConverterBase_ValueNotImplemented_Format,
+                                        Standard.Properties.Resources.ConverterBase_ValueNotImplemented_Format,
                                         value,
                                         this.GetType().Name);
                 throw new NotSupportedException(message);

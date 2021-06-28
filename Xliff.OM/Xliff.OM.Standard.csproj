@@ -4,6 +4,8 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <ReleaseVersion>1.0.0</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
+    <RootNamespace>Localization.Xliff.OM.Standard</RootNamespace>
+    <AssemblyName>Xliff.OM.Standard</AssemblyName>
     <PackageId>Xliff.OM.Standard</PackageId>
   </PropertyGroup>
 

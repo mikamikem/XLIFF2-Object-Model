@@ -61,7 +61,7 @@
                     string message;
 
                     message = string.Format(
-                                            Properties.Resources.Xml_ProcessingInstruction_InvalidName_Format,
+                                            Standard.Properties.Resources.Xml_ProcessingInstruction_InvalidName_Format,
                                             value);
                     throw new InvalidXmlSpecifierException(message, e);
                 }

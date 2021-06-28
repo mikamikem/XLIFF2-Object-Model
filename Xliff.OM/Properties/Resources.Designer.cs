@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Localization.Xliff.OM.Properties {
+namespace Localization.Xliff.OM.Standard.Properties {
     using System;
     using System.Reflection;
     

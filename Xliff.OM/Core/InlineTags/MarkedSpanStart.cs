@@ -94,7 +94,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.EquivalentStorage);
                 throw new NotSupportedException(message);
             }
@@ -104,7 +104,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.EquivalentStorage);
                 throw new NotSupportedException(message);
             }
@@ -197,7 +197,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.SizeInfo);
                 throw new NotSupportedException(message);
             }
@@ -207,7 +207,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.SizeInfo);
                 throw new NotSupportedException(message);
             }
@@ -229,7 +229,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.SizeInfoReference);
                 throw new NotSupportedException(message);
             }
@@ -239,7 +239,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         MarkedSpanStart.PropertyNames.SizeInfoReference);
                 throw new NotSupportedException(message);
             }

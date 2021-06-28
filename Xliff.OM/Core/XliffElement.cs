@@ -196,7 +196,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_InvalidElement_Format,
+                                        Standard.Properties.Resources.XliffElement_InvalidElement_Format,
                                         child.GetType().Name,
                                         this.GetType().Name);
                 throw new InvalidOperationException(message);
@@ -752,7 +752,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_AttributeAlreadyRegistered_Format,
+                                        Standard.Properties.Resources.XliffElement_AttributeAlreadyRegistered_Format,
                                         friendlyName);
                 throw new AttributeAlreadyRegisteredException(message);
             }
@@ -874,7 +874,7 @@
             string message;
 
             message = string.Format(
-                                    Properties.Resources.XliffElement_InnerTextNotSupported_Format,
+                                    Standard.Properties.Resources.XliffElement_InnerTextNotSupported_Format,
                                     this.GetType().Name);
             throw new InvalidOperationException(message);
         }

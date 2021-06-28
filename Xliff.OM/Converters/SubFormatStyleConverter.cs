@@ -73,7 +73,7 @@
                 {
                     string message;
 
-                    message = string.Format(Properties.Resources.SubFormatStyleConverter_InvalidKey_Format, pair.Key);
+                    message = string.Format(Standard.Properties.Resources.SubFormatStyleConverter_InvalidKey_Format, pair.Key);
                     throw new FormatException(message, e);
                 }
 
@@ -142,7 +142,7 @@
                         {
                             string message;
 
-                            message = string.Format(Properties.Resources.SubFormatStyleConverter_InvalidKey_Format, key);
+                            message = string.Format(Standard.Properties.Resources.SubFormatStyleConverter_InvalidKey_Format, key);
                             throw new FormatException(message, e);
                         }
 
@@ -153,7 +153,7 @@
                     {
                         string message;
 
-                        message = string.Format(Properties.Resources.SubFormatStyleConverter_CommaInValue_Format, key);
+                        message = string.Format(Standard.Properties.Resources.SubFormatStyleConverter_CommaInValue_Format, key);
                         throw new FormatException(message);
                     }
                 }
@@ -176,7 +176,7 @@
                     }
                     else
                     {
-                        throw new FormatException(Properties.Resources.SubFormatStyleConverter_BackslashInKey);
+                        throw new FormatException(Standard.Properties.Resources.SubFormatStyleConverter_BackslashInKey);
                     }
                 }
                 else
@@ -192,7 +192,7 @@
                     string message;
 
                     message = string.Format(
-                                            Properties.Resources.SubFormatStyleConverter_KeyWithoutValue_Format,
+                                            Standard.Properties.Resources.SubFormatStyleConverter_KeyWithoutValue_Format,
                                             value.Substring(start, length));
                     throw new FormatException(message);
                 }

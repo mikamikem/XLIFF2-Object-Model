@@ -97,7 +97,7 @@
         public string Id
         {
             get { return null; }
-            set { throw new NotSupportedException(Properties.Resources.XliffDocument_SetIdNotSupported); }
+            set { throw new NotSupportedException(Standard.Properties.Resources.XliffDocument_SetIdNotSupported); }
         }
 
         /// <summary>

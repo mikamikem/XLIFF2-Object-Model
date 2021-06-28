@@ -170,7 +170,7 @@
             {
                 if (value != Preservation.Preserve)
                 {
-                    throw new ArgumentException(Properties.Resources.Data_SpaceRestriction, "value");
+                    throw new ArgumentException(Standard.Properties.Resources.Data_SpaceRestriction, "value");
                 }
 
                 this.SetPropertyValue(value, Data.PropertyNames.Space);

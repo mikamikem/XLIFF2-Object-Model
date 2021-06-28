@@ -254,7 +254,7 @@
                 string message;
                 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         File.PropertyNames.EquivalentStorage);
                 throw new NotSupportedException(message);
             }
@@ -264,7 +264,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XliffElement_PropertyNotSupported_Format,
+                                        Standard.Properties.Resources.XliffElement_PropertyNotSupported_Format,
                                         File.PropertyNames.EquivalentStorage);
                 throw new NotSupportedException(message);
             }

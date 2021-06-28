@@ -152,7 +152,7 @@
                     {
                         string message;
 
-                        message = string.Format(Properties.Resources.XliffWriter_PrefixInUse_Format, prefix, dictValue);
+                        message = string.Format(Standard.Properties.Resources.XliffWriter_PrefixInUse_Format, prefix, dictValue);
                         throw new InvalidOperationException(message);
                     }
                 }
@@ -514,7 +514,7 @@
                             string message;
 
                             message = string.Format(
-                                            Properties.Resources.XliffWriter_ExtensionTypeNotSupported_Format,
+                                            Standard.Properties.Resources.XliffWriter_ExtensionTypeNotSupported_Format,
                                             extensible.GetType().Name,
                                             "Attribute");
                             throw new NotSupportedException(message);
@@ -532,7 +532,7 @@
                             string message;
 
                             message = string.Format(
-                                            Properties.Resources.XliffWriter_ExtensionTypeNotSupported_Format,
+                                            Standard.Properties.Resources.XliffWriter_ExtensionTypeNotSupported_Format,
                                             extensible.GetType().Name,
                                             "Element");
                             throw new NotSupportedException(message);
@@ -835,7 +835,7 @@
                 string message;
 
                 message = string.Format(
-                                        Properties.Resources.XmlWriter_InvalidXmlSpecifier_Format,
+                                        Standard.Properties.Resources.XmlWriter_InvalidXmlSpecifier_Format,
                                         localName);
                 throw new InvalidXmlSpecifierException(message, e);
             }

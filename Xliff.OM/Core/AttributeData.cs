@@ -272,7 +272,7 @@
                 }
 
                 message = string.Format(
-                                        Properties.Resources.XliffReader_InvalidAttributeName_Format,
+                                        Standard.Properties.Resources.XliffReader_InvalidAttributeName_Format,
                                         message,
                                         this.hostTypeName);
                 throw new NotSupportedException(message);
