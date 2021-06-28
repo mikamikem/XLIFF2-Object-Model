@@ -10,4 +10,30 @@
   <ItemGroup>
     <Compile Remove="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\change_tracking.xsd" />
+    <None Remove="Resources\fs.xsd" />
+    <None Remove="Resources\glossary.xsd" />
+    <None Remove="Resources\matches.xsd" />
+    <None Remove="Resources\metadata.xsd" />
+    <None Remove="Resources\resource_data.xsd" />
+    <None Remove="Resources\size_restriction.xsd" />
+    <None Remove="Resources\validation.xsd" />
+    <None Remove="Resources\xliff_core_2.0.xsd" />
+    <None Remove="Resources\xml.xsd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\change_tracking.xsd" />
+    <EmbeddedResource Include="Resources\fs.xsd" />
+    <EmbeddedResource Include="Resources\glossary.xsd" />
+    <EmbeddedResource Include="Resources\matches.xsd" />
+    <EmbeddedResource Include="Resources\metadata.xsd" />
+    <EmbeddedResource Include="Resources\resource_data.xsd" />
+    <EmbeddedResource Include="Resources\size_restriction.xsd" />
+    <EmbeddedResource Include="Resources\validation.xsd" />
+    <EmbeddedResource Include="Resources\xliff_core_2.0.xsd" />
+    <EmbeddedResource Include="Resources\xml.xsd" />
+  </ItemGroup>
 </Project>
